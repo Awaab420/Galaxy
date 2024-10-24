@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/960/158/original/galaxy-and-nebula-abstract-space-background-endless-universe-with-stars-and-galaxies-in-outer-space-cosmos-art-motion-design-video.jpg);
+    background-size: cover;
+    font-family: "Playwrite GB S", cursive;
+    animation: body 15s infinite ease-in-out;
+}
+@keyframes body {
+    0%,100%{}
+    25%{
+        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f9b913b-c48a-43ab-a9aa-26d4355d1d80/dfuc24t-934bbcb0-e352-49be-84b5-3e5686b16845.png/v1/fill/w_1920,h_1077,q_80,strp/colorful_space__19___hd_wallpaper_background_by_ixul_dfuc24t-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZmOWI5MTNiLWM0OGEtNDNhYi1hOWFhLTI2ZDQzNTVkMWQ4MFwvZGZ1YzI0dC05MzRiYmNiMC1lMzUyLTQ5YmUtODRiNS0zZTU2ODZiMTY4NDUucG5nIiwiaGVpZ2h0IjoiPD0xMDc3Iiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNmY5YjkxM2ItYzQ4YS00M2FiLWE5YWEtMjZkNDM1NWQxZDgwXC9peHVsLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.J0MXdIMDdvlnRImJ-X0Eq82bL5vxNNZoxkXYaOY8JZ8");
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f9b913b-c48a-43ab-a9aa-26d4355d1d80/dfufecj-8534d00e-b791-41e9-b1be-cbae48229a95.png/v1/fill/w_1920,h_1280,q_80,strp/colorful_space__24___hd_wallpaper_background_by_ixul_dfufecj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZmOWI5MTNiLWM0OGEtNDNhYi1hOWFhLTI2ZDQzNTVkMWQ4MFwvZGZ1ZmVjai04NTM0ZDAwZS1iNzkxLTQxZTktYjFiZS1jYmFlNDgyMjlhOTUucG5nIiwiaGVpZ2h0IjoiPD0xMjgwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNmY5YjkxM2ItYzQ4YS00M2FiLWE5YWEtMjZkNDM1NWQxZDgwXC9peHVsLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.XwlBFnS8mq2kLWe7nTLBd62cORpVjeUP45eG1KNEqQg);
+        background-size: cover;
+
+    }
+    75%{
+        background-image: url(https://wallpaperdelight.com/wp-content/uploads/2024/02/Ethereal-galaxy-filled-with-luminous-stars-and-a-captivating-interstellar-glow.jpg);
+        background-size: cover;
+    }
+
+}
+header{
+    background-color:#1E201E;
+    color: white;
+    padding: 10px;
+    padding-left: 200px;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.mainBox>div{
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    position: relative;
+}
+.box1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/290px-Mercury_in_true_color.jpg);
+    background-size: cover;
+    animation: box1 3s infinite ease-in-out;
+}
+@keyframes box1{
+    0%,100%{
+
+    }
+    50%{
+        translate: 0 -20px;
+    }
+}
+.box2{
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/06/Venus-jpeg.webp?w=4096&format=png&crop=1);
+    background-size: cover;
+    background-position-x: -50px;
+    animation: box1 3s infinite ease-in-out;
+
+
+}
+.box3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1200px-The_Earth_seen_from_Apollo_17.jpg);
+    background-size: cover;
+    animation: box1 3s infinite ease-in-out;
+
+}
+.box4{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jupiter_New_Horizons.jpg/290px-Jupiter_New_Horizons.jpg");
+    background-size: cover;
+    animation: box1 3s infinite ease-in-out;
+
+
+}
+button{
+    background-color: #006BFF;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.small1{
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
